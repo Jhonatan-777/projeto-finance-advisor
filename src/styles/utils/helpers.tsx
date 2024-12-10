@@ -7,7 +7,7 @@ export const colors = {
   warning: "#ffc107",
   info: "#17a2b8",
   light: "#f8f9fa",
-  dark: "#343a40",
+  dark: "#1e1f20",
 };
 
 // Espaçamento
@@ -19,22 +19,24 @@ export const spacing = {
 };
 
 // Fontes
-export const fontSizes = {
-  small: "12px",
-  medium: "16px",
-  large: "20px",
-  xLarge: "24px",
+export const fontSize = {
+  small: "0.75rem",
+  medium: "1rem",
+  large: "1.25rem",
+  xLarge: "1.5rem",
 };
 
-export const fontWeights = {
+export const fontWeight = {
+  light: 300,
   regular: 400,
+  medium: 500,
   bold: 700,
 };
 
 export const fontFamily = {
-  mess: "El Messiri",
-  robo: "Roboto",
-  popp: "Poppins",
+  messiri: "El Messiri",
+  roboto: "Roboto",
+  poppins: "Poppins",
 };
 
 // Z-Index
@@ -43,4 +45,10 @@ export const zIndex = {
   overlay: 900,
   dropdown: 800,
   tooltip: 700,
+};
+
+// Sombras
+export const boxShadow = {
+  shadowBottom: "0 2px 4px rgba(0, 0, 0, 0.1)",
+  shadowBottomRight: "2px 2px 4px rgba(0, 0, 0, 0.1)",
 };
