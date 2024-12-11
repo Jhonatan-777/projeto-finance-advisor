@@ -42,7 +42,7 @@ export const ContainerDesc = styled.div`
   .title {
     font-size: ${fontSize.xxLarge};
     font-family: ${fontFamily.title};
-    font-weight: ${fontWeight.medium};
+    font-weight: ${fontWeight.bold};
     width: 500px;
     line-height: 1.2;
   }
@@ -64,7 +64,8 @@ export const ContainerImage = styled.div`
   .image-principal {
     /* z-index: 1; */
     max-width: 600px;
-    max-height: 700px;
+    max-height: 80vh;
+    max-height: 80dvh;
     overflow: hidden;
     img {
       object-position: center top;

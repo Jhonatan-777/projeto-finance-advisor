@@ -15,6 +15,7 @@ import {
 // Estilos do Header
 export const HeaderWrapper = styled.header`
   position: fixed;
+  z-index: 1000;
   width: 100%;
   ${flexMixin()};
   padding: 20px 0;
@@ -133,7 +134,7 @@ export const Overlay = styled.div`
 export const Logo = styled.div`
   p {
     color: ${colors.dark};
-    font-size: ${fontSize.xLarge};
+    font-size: ${fontSize.large};
     font-weight: ${fontWeight.bold};
     font-family: ${fontFamily.title};
 

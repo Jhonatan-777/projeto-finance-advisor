@@ -21,10 +21,10 @@ export const spacing = {
 
 // Fontes
 export const fontSize = {
-  small: "0.75rem",
+  small: "0.80rem",
   medium: "1rem",
-  large: "1.25rem",
-  xLarge: "1.5rem",
+  large: "1.5rem",
+  xLarge: "2rem",
   xxLarge: "4rem",
 };
 
@@ -51,5 +51,5 @@ export const zIndex = {
 // Sombras
 export const boxShadow = {
   shadowBottom: "0 2px 4px rgba(0, 0, 0, 0.1)",
-  shadowBottomRight: "2px 2px 4px rgba(0, 0, 0, 0.1)",
+  shadowBottomRight: "10px 10px 50px rgba(0, 0, 0, 0.1)",
 };
