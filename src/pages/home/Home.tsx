@@ -1,5 +1,12 @@
+// sections
+import Banner from "../../sections/banner/Banner";
+
 const Home = () => {
-  return <>home</>;
+  return (
+    <>
+      <Banner></Banner>
+    </>
+  );
 };
 
 export default Home;

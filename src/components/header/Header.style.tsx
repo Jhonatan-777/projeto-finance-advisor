@@ -14,6 +14,8 @@ import {
 
 // Estilos do Header
 export const HeaderWrapper = styled.header`
+  position: fixed;
+  width: 100%;
   ${flexMixin()};
   padding: 20px 0;
   background-color: ${colors.light};
@@ -133,7 +135,7 @@ export const Logo = styled.div`
     color: ${colors.dark};
     font-size: ${fontSize.xLarge};
     font-weight: ${fontWeight.bold};
-    font-family: ${fontFamily.poppins};
+    font-family: ${fontFamily.title};
 
     span {
       color: ${colors.primary};
@@ -169,7 +171,7 @@ export const NavLink = styled.li`
     color: ${colors.secondary};
     font-size: ${fontSize.medium};
     font-weight: ${fontWeight.regular};
-    font-family: ${fontFamily.roboto};
+    font-family: ${fontFamily.text};
     transition: all 0.2s;
 
     &:hover {

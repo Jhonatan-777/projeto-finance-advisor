@@ -6,6 +6,7 @@ export const colors = {
   danger: "#dc3545",
   warning: "#ffc107",
   info: "#17a2b8",
+  bege: "#ebebeb",
   light: "#f8f9fa",
   dark: "#1e1f20",
 };
@@ -24,6 +25,7 @@ export const fontSize = {
   medium: "1rem",
   large: "1.25rem",
   xLarge: "1.5rem",
+  xxLarge: "4rem",
 };
 
 export const fontWeight = {
@@ -34,9 +36,8 @@ export const fontWeight = {
 };
 
 export const fontFamily = {
-  messiri: "El Messiri",
-  roboto: "Roboto",
-  poppins: "Poppins",
+  text: "Roboto",
+  title: "Poppins",
 };
 
 // Z-Index

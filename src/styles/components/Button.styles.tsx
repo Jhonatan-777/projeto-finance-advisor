@@ -6,7 +6,7 @@ export const Button = styled.button`
   color: ${colors.light};
   font-size: ${fontSize.medium};
   font-weight: ${fontWeight.regular};
-  font-family: ${fontFamily.roboto};
+  font-family: ${fontFamily.text};
   transition: all 0.2s;
   border: none;
   border-radius: 5px;
