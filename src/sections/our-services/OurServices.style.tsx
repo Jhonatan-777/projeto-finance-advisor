@@ -12,26 +12,36 @@ import {
   fontWeight,
 } from "../../styles/utils/helpers";
 
-// Estilos do platform
-export const PlatformWrapper = styled.section`
+// Estilos do services
+export const ServicesWrapper = styled.section`
   ${flexMixin()};
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: ${colors.light};
 `;
 
-// Estilos do container platform
-export const PlatformContent = styled.div`
+// Estilos do container services
+export const ServicesContent = styled.div`
   ${containerMixin()};
-  ${flexMixin("space-between", "flex-start")};
+  ${flexMixin("space-between", "center")};
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
 
   .title {
     font-size: ${fontSize.xLarge};
     font-family: ${fontFamily.title};
     font-weight: ${fontWeight.medium};
     line-height: 1.2;
+  }
+
+  .desc-section {
+    text-align: center;
+    max-width: 50ch;
+    font-size: ${fontSize.medium};
+    font-family: ${fontFamily.text};
+    font-weight: ${fontWeight.regular};
+    line-height: 1.2;
+    margin-bottom: 20px;
   }
 `;
 
@@ -49,8 +59,9 @@ export const ContainerCard = styled.div`
     border-radius: 10px;
     background-color: ${colors.bege};
     padding: 20px;
-    ${flexMixin("space-between", "center")};
-    gap: 30px;
+    ${flexMixin("center", "center")};
+    flex-direction: column;
+    gap: 20px;
     transition: all 0.2s;
 
     &:hover {
@@ -66,6 +77,7 @@ export const ContainerCard = styled.div`
 
     .card-desc {
       width: 100%;
+      text-align: center;
 
       h3 {
         font-size: ${fontSize.medium};
@@ -73,14 +85,6 @@ export const ContainerCard = styled.div`
         font-weight: ${fontWeight.medium};
         line-height: 1.2;
         margin-bottom: 10px;
-      }
-
-      p {
-        width: 25ch;
-        font-size: ${fontSize.small};
-        font-family: ${fontFamily.text};
-        font-weight: ${fontWeight.regular};
-        line-height: 1.6;
       }
     }
   }
