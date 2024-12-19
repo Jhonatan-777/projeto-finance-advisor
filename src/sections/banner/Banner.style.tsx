@@ -52,6 +52,7 @@ export const ContainerDesc = styled.div`
     font-family: ${fontFamily.text};
     font-weight: ${fontWeight.regular};
     max-width: 330px;
+    line-height: 1.5;
   }
 `;
 

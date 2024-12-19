@@ -40,7 +40,7 @@ export const ServicesContent = styled.div`
     font-size: ${fontSize.medium};
     font-family: ${fontFamily.text};
     font-weight: ${fontWeight.regular};
-    line-height: 1.2;
+    line-height: 1.5;
     margin-bottom: 20px;
   }
 `;
